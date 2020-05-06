@@ -1,7 +1,8 @@
-Getting raw sensor data like this:
+The code gets raw sensor data about a vehicle like this:
+
 
 ## Raw Input Data
-| timestamp | displacement  | yaw_rate | acceleration |
+| timestamp(seconds) | displacement(meters)  | yaw_rate(rads/sec) | acceleration(m/s/s) |
 | :-------: | :----------: | :------: | :----------: |
 | 0.0 | 0 | 0.0 | 0.0 |
 | 0.25 | 0.0 | 0.0 | 19.6 |
@@ -18,7 +19,9 @@ Getting raw sensor data like this:
 | 3.0 | 46.55 | -2.82901631903 | 0.0 |
 | 3.25 | 51.45 | -2.82901631903 | 0.0 |
 | 3.5 | 56.35 | -2.82901631903 | 0.0 |
-and turn it into plots of vehicle trajectories.
+
+
+and turn it into plots of vehicle trajectory like this:
 
 ## Output Trajectory Example:
 ![Alt text](example-trajectory.png?raw=true "Output Example")
